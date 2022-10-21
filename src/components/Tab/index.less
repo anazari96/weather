@@ -1,0 +1,16 @@
+.title {
+  transition: all 0.1s;
+  &::after {
+    display: block;
+    content: attr(data-title);
+    font-weight: 700;
+    height: 1px;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+  }
+}
+.active {
+  color: #5fb0e8;
+  font-weight: 700;
+}
