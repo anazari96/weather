@@ -1,3 +1,6 @@
+# Demo link of the project
+[Weather App](https://simple-weather-app-test-2022.herokuapp.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
