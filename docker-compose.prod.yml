@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  app:
+    env_file:
+      - .env
+    container_name: dockerized-weather-prod
+    image: dockerized-weather-prod
+    build:
+      context: .
+      target: production
