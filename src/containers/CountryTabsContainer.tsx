@@ -1,7 +1,7 @@
 import React from "react";
 import Tab from "../components/Tab";
 import { ICity } from "../models/country";
-import { CITY_LIST, getCities } from "../services/country";
+import { getCities } from "../services/country";
 
 interface IProps {
   selectedCity: ICity;
@@ -11,10 +11,6 @@ interface IProps {
 interface IState {}
 
 class CountryTabsContainer extends React.Component<IProps, IState> {
-  constructor(props: IProps) {
-    super(props);
-  }
-
   _isSelected(city: ICity) {
     return this.props.selectedCity.name === city.name;
   }

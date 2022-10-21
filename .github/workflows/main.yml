@@ -30,3 +30,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "simple-weather-app" #Must be unique in Heroku
           heroku_email: "a.nazari5868@gmail.com"
+          appdir: "build"
